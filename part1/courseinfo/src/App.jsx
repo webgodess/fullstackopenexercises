@@ -1,3 +1,6 @@
+import { useState } from "react";
+
+import "./App.css";
 const App = () => {
   const course = {
     name: "Half Stack application development",
