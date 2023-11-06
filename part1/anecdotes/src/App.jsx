@@ -30,7 +30,7 @@ const App = () => {
     setSelected(index);
     let maxVote = Math.max(...votes);
     let mostVotedQuote = votes.indexOf(maxVote);
-    console.log(anecdotes[mostVotedQuote]);
+
     setMostVoted(anecdotes[mostVotedQuote]);
     setMostVotes(maxVote);
   };
